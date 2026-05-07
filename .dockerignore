@@ -1,0 +1,20 @@
+# Git metadata
+.git
+.gitignore
+
+# Documentation (not needed in container image)
+README.md
+
+# Editor / OS artifacts
+.vscode
+.idea
+*.DS_Store
+Thumbs.db
+
+# Node modules (if any future tooling is added)
+node_modules
+npm-debug.log
+
+# Environment files (never ship secrets)
+.env
+*.env
